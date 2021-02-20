@@ -1,0 +1,11 @@
+.visible > span  p {
+    visibility: hidden;
+}
+
+.visible > span {
+    border: 5px solid black;
+}
+
+.visible:hover > span > p {
+	visibility: visible;
+}

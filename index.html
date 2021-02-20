@@ -1,42 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
     <!-- Specify and External Stylesheet -->
-    <link rel="stylesheet" href="Color and Background Color Property.css">
-    <link rel="stylesheet" href="Font Properties.css">
-    <link rel="stylesheet" href="Text Align Property.css">
-    <link rel="stylesheet" href="Width and Height Properties.css">
-    <link rel="stylesheet" href="DOM Box Model Properties.css">
-</head>
-<body>
+    <link rel="stylesheet" href="Color and Background Color Property.css" />
+    <link rel="stylesheet" href="Font Properties.css" />
+    <link rel="stylesheet" href="Text Align Property.css" />
+    <link rel="stylesheet" href="Width and Height Properties.css" />
+    <link rel="stylesheet" href="DOM Box Model Properties.css" />
+    <link rel="stylesheet" href="Border Property.css" />
+    <link rel="stylesheet" href="Visibility Property.css" />
+    <link rel="stylesheet" href="Text Overflow Property.css" />
+    <link rel="stylesheet" href="Position Property.css" />
+  </head>
+  <body>
     <!-- Color and Background Color Property -->
-    <h1>Color and background-color Property Changes the color of this header</h1>
+    <h1>
+      Color and background-color Property Changes the color of this header
+    </h1>
 
     <!-- Font Properties -->
     <p>The font Properties changes the font of this paragraph</p>
 
     <!-- Text Align Property -->
     <section>
-        <span>This text is centered with text align property</span>
+      <span>This text is centered with text align property</span>
     </section>
 
     <!-- Width and Height Properties -->
     <div class="display">
-        <p style="font-size: medium;">The width and height of the DOM box can be changed</p>
+      <p style="font-size: medium">
+        The width and height of the DOM box can be changed
+      </p>
     </div>
 
-    <br>
+    <br />
+    
+    <!-- This has a fixed position -->
+    <div class="fixed">
+        <p>This position is fixed on the html document</p>
+    </div>
 
     <!-- DOM Box Model Properties -->
     <div class="dom-box-model">
-        <p style="font-size: medium;">DOM box Model includes margins, padding display and box-sizing,
-        float, and clear properties</p>
+      <p style="font-size: medium">
+        DOM box Model includes margins, padding display and box-sizing, float,
+        and clear properties
+      </p>
     </div>
-    
-</body>
+
+    <!-- Border Property -->
+    <div class="box-border">
+      <p>This is a border box property being used</p>
+    </div>
+
+    <div class="visible">
+      <span
+        ><p>The Text in this span only appears when you hover over it</p></span
+      >
+    </div>
+
+    <div class="blerb">
+      <p>
+        <strong>This is the text overflow property</strong>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam
+        mi, dictum ut magna nec, viverra hendrerit tortor. Morbi at libero
+        efficitur, laoreet purus in, malesuada ex. Phasellus a fermentum massa,
+        vitae interdum sapien. Aenean ac sapien ut sapien eleifend finibus vel
+        id nunc. Nulla venenatis odio vitae elit viverra lacinia. Duis et ante
+        nibh. Aliquam erat volutpat. Quisque a ornare augue, a eleifend odio.
+        Praesent ut suscipit mi. Cras nec enim tincidunt, hendrerit sem id,
+        auctor diam. Sed at elit metus.
+      </p>
+    </div>
+  </body>
 </html>

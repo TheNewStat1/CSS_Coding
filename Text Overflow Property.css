@@ -1,0 +1,10 @@
+.blerb {
+    overflow: scroll;
+    width: 400px;
+    height: 300px;
+}
+
+div > p > strong {
+    font-style: normal;
+    font-weight: 900px;
+}

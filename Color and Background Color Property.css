@@ -1,0 +1,10 @@
+/* Using an External Style sheet */
+h1 {
+    /* Three common ways fo specifying color in css */
+    color: green;
+    /* color:rgb(70, 70, 122, 0.5); */
+    /* color:rgb(70, 70, 122); */
+    /* color:#000ff0; */
+
+    background-color: yellow;
+}
